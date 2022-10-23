@@ -91,8 +91,8 @@ class HitCarder(object):
 
         with open("form.txt", "r", encoding="utf-8") as f:
             r = f.read().strip()
-            print(r == new_form.strip())
-            if new_form == f.read():
+#             print(r == new_form.strip())
+            if new_form.strip() == f.read():
                 print('okkkkkkkkkkkkkkkkkk')
                 return True
         #with open("form.txt", "w", encoding="utf-8") as f:
